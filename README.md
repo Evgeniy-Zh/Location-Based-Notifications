@@ -1,4 +1,16 @@
 
+## Change List
+Added GeofenceRepository to add and remove tracked Memo locations.
+
+Switched Room database to use Coroutines Flow, since updates in the Memo list might affect multiple screens.
+
+Added a DI container to retrieve required instances without making them singletons.
+
+Added a map to Memo screens — it lets users choose a Memo location and view other Memos on the map.
+
+Added permission requests, including Notification and Location permissions.
+
+Changed the Memo data class to be immutable.
 
 # android-codelab
 Android project that serves as a base for code challenges implemented by applicants.
